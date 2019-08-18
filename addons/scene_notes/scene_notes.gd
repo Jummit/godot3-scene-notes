@@ -17,10 +17,10 @@ func _init() . (SceneNotesDock):
 	pass
 
 func get_plugin_name():
-  return DOCK_NAME
+	return DOCK_NAME
 
 func get_plugin_icon():
-  return load(get_addon_dir() + "icon.png")
+	return load(get_addon_dir() + "icon.png")
 
 func setup_dock(dock):
 	dock.name = DOCK_NAME
